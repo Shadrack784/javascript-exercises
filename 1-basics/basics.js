@@ -151,7 +151,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            object.someProperty = undefined;
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
@@ -170,7 +170,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
