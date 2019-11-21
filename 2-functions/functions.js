@@ -74,6 +74,7 @@ describe("functions", function() {
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
             const answer = getContext();
+
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext(); // <--- called without explicit context
@@ -97,9 +98,10 @@ describe("functions", function() {
             // and 'answerThirdResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
             ////////////////////////////////////////////////////////////////////
-
+            const answerFirstResult = undefined;
+            const answerSecondResult = context;
+            const answerThirdResult = undefined;
             // First we call the function without an explicit context
             const firstResult = getContext();
             // We call the same function but now with an explicit context
