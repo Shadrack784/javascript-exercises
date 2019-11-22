@@ -31,7 +31,7 @@ describe("arrays", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
             function removeLastItem() {
-                return array.pop;
+                return array.pop();
             }
             ////////////////////////////////////////////////////////////////////
 
