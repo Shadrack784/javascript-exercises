@@ -629,7 +629,7 @@ describe("functions", function() {
 
             // Now we're registering the service.handleEvent method so that
             // it will be called as soon as the event is emitted.
-            eventEmitter.addEventListener(service.handleEvent);
+            eventEmitter.addEventListener(service.handleEvent.bind(service)); //not pointing tomthe correct context
             // Now let's emit the event. However, this will fail.
             // Find the reason why and fix it.
             eventEmitter.emit();
