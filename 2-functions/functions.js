@@ -335,8 +335,10 @@ describe("functions", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you implement a function 'myFunction' that returns a reference to itself?
-            // ✏️ ADD CODE HERE ✏️
-
+            // ✏️ ADD CODE HERE ✏️pg 38
+            function myFunction() {
+                return myFunction;
+            }
             ////////////////////////////////////////////////////////////////////
 
             const result = myFunction();
