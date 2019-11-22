@@ -375,8 +375,13 @@ describe("functions", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you implement a function 'myFunction' that returns a function
             // which returns the number of arguments of 'myFunction' when called?
-            // ✏️ ADD CODE HERE ✏️
-
+            // ✏️ ADD CODE HERE ✏️pg 47
+            function myFunction() {
+                const length = arguments.length;
+                return function() {
+                    return length;
+                }
+            }
             ////////////////////////////////////////////////////////////////////
 
             // Look at that strange code: myFunction()().
